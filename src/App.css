@@ -1,0 +1,65 @@
+#root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+#display {
+  text-align: center;
+  padding: 1em;
+  margin: 2rem;
+  border: 2px solid pink;
+  border-radius: 1rem;
+}
+
+.box {
+  margin: 0 auto;
+  background-color: black;
+  width: 19rem;
+  height: 19rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.drum-pad {
+  color: black;
+  margin: 5px;
+  background-color: pink;
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.drum-pad:hover {
+  background-color: rgb(184, 91, 106);
+}
+
+.drum-pad:active {
+  background-color: rgb(233, 34, 67);
+}
+
+.comment {
+  color: #888;
+}
